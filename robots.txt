@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /cp
+Disallow: /func
+Disallow: /lib

@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteRule ^pm$ index.php?sec=pm
+RewriteRule ^pm/send/$ index.php?sec=pm&act=send
+RewriteRule ^pm/send/([a-zA-Z0-9]+)$ index.php?sec=pm&act=send&u=$1
+RewriteRule ^pm/read-([a-zA-Z0-9]+).html$ index.php?sec=pm&act=read&pmid=$1
+RewriteRule ^search$ index.php?sec=search
+RewriteRule ^search/(.+)/$ index.php?sec=search&text=$1
+RewriteRule ^profile/([a-zA-Z0-9]+).html$ index.php?sec=profile&user=$1
+RewriteRule ^setting$ index.php?sec=setting
+RewriteRule ^setting/password/$ index.php?sec=setting&act=password
+RewriteRule ^category/(.+)/$ index.php?cate=$1
+RewriteRule ^category/(.+)/topic-([a-zA-Z0-9]+).html$ index.php?topic=$2

@@ -1,0 +1,100 @@
+body
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:12px;
+	color: #777;
+	margin:0px;
+	line-height: 20px;
+    background-attachment:fixed;
+	background-color:#EBEBEB;
+	background-position:center;
+}
+.font-bl
+{
+	font-weight:bold;
+}
+.data-contain-div
+{
+	width:900px;
+	margin:auto;
+}
+h1, h2 , h3 , h4 , h5
+{
+	padding:0px;
+	margin:0px;
+}
+
+.left
+{
+	float:left;
+}
+.data-div
+{
+	width:95%;
+	padding:10px;
+    margin-bottom:50px;
+}
+.footer
+{
+	width:160px;
+	background-color:rgb(33,33,33);
+	padding:5px;
+	color:rgb(255,255,255);
+	position:fixed;
+	bottom:0px;
+	margin:auto;
+}
+a
+{
+	text-decoration:none;
+	color:rgb(206,97,1);
+}
+a:hover
+{
+	text-decoration:none;
+}
+.title-div , .menu-title-div
+{
+	padding:5px;
+	width:750px;
+}
+.right
+{
+	float:right;
+}
+.update-list
+{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.status-div
+{
+	margin-top:5px;
+}
+.option-link
+{
+	cursor:pointer;
+}
+.login-div
+{
+	margin:auto;
+	width:300px;
+	margin-top:100px;
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color:#FFF;
+    padding:10px;
+    border:1px solid #CCC;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+}
+select
+{
+	width:300px;
+	padding:5px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	outline: medium none;
+	color: rgba(0, 0, 0, 0.7);
+	border-radius: 0.3125em;
+}
